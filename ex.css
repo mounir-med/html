@@ -1,0 +1,54 @@
+h1{
+    color: red;
+}
+h3{
+    color: darkblue;
+    font-family: algerian;
+}
+
+div{
+    width: 100px;
+    background-color: red;
+    height: 100px;
+    font-size: 20px;
+    transition: background-color .5s linear 2s;
+}
+div:hover{
+    background-color: blue;
+    border-radius: 100px;
+}
+.pp{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    font-size: 20px;
+    transition: background-color .5s ease-in 2s;
+}
+.pp:hover{
+    background-color: black;
+    border-radius: 100px;
+    border: 10px black solid;
+
+}
+a:link{
+    color: blue;   
+}
+a:visited{
+    color: chartreuse;
+}
+a:hover{
+    background-color: blueviolet;
+}
+a:active{
+    color: red;
+}
+button:active{
+    color: red;
+}
+button{
+    background-color: blueviolet;
+    transition: background-color .5s linear 1s;
+}
+button:hover{
+    background-color: pink;
+}
